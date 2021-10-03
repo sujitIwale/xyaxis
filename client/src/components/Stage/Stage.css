@@ -1,0 +1,39 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #292c3a;
+    margin: 30px;
+    position: relative;
+}
+.Stage , .Audience {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Stage {
+    width: 60%;
+    border: 10px solid rgb(121, 75, 196);
+    border-radius: 20px;
+}
+/* .Audience {
+} */
+
+hr {
+    width: 90%;
+}
+.head {
+    font-size: 25px;
+}
+.footer {
+    position: sticky;
+    bottom: 0;
+}
+
+#vid {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
